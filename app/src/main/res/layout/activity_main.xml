@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Toolbar"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btn_coordinatorlayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CoordinatorLayout"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btn_navigationview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:text="NavigationView"/>
+
+            <Button
+                android:id="@+id/btn_cardview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CardView"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btn_textinputlayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:text="TextInputLayout"/>
+
+            <Button
+                android:id="@+id/btn_tablayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TabLayout"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btn_snackbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:text="SnackBar"/>
+
+            <Button
+                android:id="@+id/btn_floatingactionbutton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FloatingActionButton"
+                android:textAllCaps="false" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

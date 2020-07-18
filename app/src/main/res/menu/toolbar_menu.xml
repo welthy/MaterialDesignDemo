@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/menu01" android:title="menu01" app:showAsAction="always" android:orderInCategory="1" android:icon="@mipmap/ic_launcher_round"/>
+    <item android:id="@+id/menu02" android:title="menu02" app:showAsAction="never" android:orderInCategory="3" android:icon="@mipmap/ic_launcher_round"/>
+    <item android:id="@+id/menu03" android:title="menu03" app:showAsAction="never" android:orderInCategory="2" android:icon="@mipmap/ic_launcher_round"/>
+    <item android:id="@+id/menu04" android:title="menu04" app:showAsAction="collapseActionView" android:orderInCategory="4" android:icon="@mipmap/ic_launcher_round"/>
+    <item android:id="@+id/menu05" android:title="menu05" app:showAsAction="never" android:orderInCategory="5" android:icon="@mipmap/ic_launcher_round"/>
+
+</menu>
