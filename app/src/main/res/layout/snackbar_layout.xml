@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/snack_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="简单显示文本"/>
+
+    <Button
+        android:id="@+id/snack_add_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="添加可点击按钮"/>
+
+    <Button
+        android:id="@+id/snack_click_dismiss"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="需点击才会消失"/>
+
+    <Button
+        android:id="@+id/snack_add_state_callback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="添加状态回调"/>
+
+    <Button
+        android:id="@+id/snack_change_tv_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="修改文本颜色"/>
+
+</LinearLayout>
