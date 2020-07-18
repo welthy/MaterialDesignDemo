@@ -3,7 +3,6 @@
 
 ## 控件列表
 - ToolBar
-- Toolbar和Menu。
 - 基于CoordinatorLayout的联动。
 - NavigationView。
 - CardView。
