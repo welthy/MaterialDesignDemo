@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     private void initView(){
+		Log.d("11", "22");
         btnToolbar = findViewById(R.id.btn_toolbar);
         btnCardView = findViewById(R.id.btn_cardview);
         btnCoordinator = findViewById(R.id.btn_coordinatorlayout);
